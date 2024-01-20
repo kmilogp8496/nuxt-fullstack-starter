@@ -51,6 +51,3 @@ export default oauth.googleEventHandler({
     return sendRedirect(event, '/')
   },
 })
-
-// http://today-in-backoffice.dev:3000/auth/google
-// http://today-in-backoffice.dev:3000/auth/google
