@@ -9,14 +9,18 @@ Based on [Atinux](https://github.com/Atinux) example: [nuxt-todos-edge](https://
 - [Eslint configuration](https://github.com/antfu/eslint-config) from [antfu](https://github.com/antfu).
 - Google Authentication integrated by [nuxt-auth-utils](https://github.com/Atinux/nuxt-auth-utils) from [Atinux](https://github.com/Atinux).
 
-## Setting up Google Authentication
+## Setting up Authentication
 
-You need to create credentials [in the cloud console](https://console.cloud.google.com/apis/credentials) for using Google sign-in. Then, configure your `.env` file taking the `.env.example` as a reference.
+Create creadentials in github or google and fille your env variables with your app client ID and secrets.
 
 ```
-NUXT_SESSION_PASSWORD=<your_super_secret_password>
-NUXT_OAUTH_GOOGLE_CLIENT_ID=<your_google_client_id>
-NUXT_OAUTH_GOOGLE_CLIENT_SECRET=<your_google_client_secret>
+NUXT_SESSION_PASSWORD=
+
+NUXT_OAUTH_GOOGLE_CLIENT_ID=
+NUXT_OAUTH_GOOGLE_CLIENT_SECRET=
+
+NUXT_OAUTH_GITHUB_CLIENT_ID=
+NUXT_OAUTH_GITHUB_CLIENT_SECRET=
 ```
 
 ## Thanks
