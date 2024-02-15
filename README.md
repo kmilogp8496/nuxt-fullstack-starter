@@ -11,7 +11,7 @@ Based on [Atinux](https://github.com/Atinux) example: [nuxt-todos-edge](https://
 
 ## Setting up Authentication
 
-Create creadentials in github or google and fille your env variables with your app client ID and secrets.
+Create credentials in github or google and fill your env variables with your app client ID and secrets.
 
 ```
 NUXT_SESSION_PASSWORD=
