@@ -14,18 +14,18 @@
   },
   "dependencies": {
     "@libsql/client": "0.4.3",
-    "@nuxt/ui": "^2.13.0",
-    "better-sqlite3": "^9.4.1",
-    "drizzle-orm": "^0.29.3"
+    "@nuxt/ui": "^2.15.2",
+    "better-sqlite3": "^9.5.0",
+    "drizzle-orm": "^0.30.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
+    "@antfu/eslint-config": "^2.13.3",
     "drizzle-kit": "^0.20.14",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-drizzle": "^0.2.3",
-    "nuxt": "^3.10.1",
-    "nuxt-auth-utils": "^0.0.16",
-    "vue": "^3.4.19",
-    "vue-router": "^4.2.5"
+    "nuxt": "^3.11.2",
+    "nuxt-auth-utils": "^0.0.22",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   }
 }
